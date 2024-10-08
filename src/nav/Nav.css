@@ -1,0 +1,19 @@
+.nav {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22vh;
+}
+
+.plane2 {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+}
+
+.heading {
+    font-family: "Great Vibes", cursive;
+    font-weight: 550;
+    font-size: clamp(1.5rem, 7vw, 9vh);
+}

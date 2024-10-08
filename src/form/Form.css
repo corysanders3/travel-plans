@@ -1,0 +1,35 @@
+.form {
+    margin: 20px 10% 0 10%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.dropdown {
+    width: 200px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.form-button {
+    width: 180px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 4px solid black;
+    background-color: lightgray;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
